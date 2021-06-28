@@ -1,6 +1,9 @@
 <ion-header>
   <ion-toolbar color="secondary">
     <ion-title>Registro</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="login"></ion-back-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
@@ -17,4 +20,4 @@
   <br>
   <ion-button color="secondary"(click)="onSubmitRegister()"expand="block">Registrarse</ion-button>
   <br>
-  <ion-button expand="block"routerLink="/usuarios">Ya tengo cuenta</ion-button>
+  <ion-button expand="block"routerLink="/login">Ya tengo cuenta</ion-button>
