@@ -1,9 +1,12 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>LISTA DECITAS ESPERANDOTE</ion-title>
+    <ion-title class="mat-snack-bar-container">LISTA DE CITAS ESPERANDOTE</ion-title>
     <ion-buttons slot="start">
       <ion-back-button defaultHref="login"></ion-back-button>
-      <ion-button expand="block"routerLink="/googlemaps">TU LOCALIZACION</ion-button>
+      <ion-button routerLink="/googlemaps" >
+        TU LOCALIZACION
+        <ion-icon slot="end" name="earth-outline" ></ion-icon>
+      </ion-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
